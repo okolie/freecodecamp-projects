@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+    </header>
+
+    <main>
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+
+      <form action="#" method="get" id="survey-form">
+        <label for="name-label"> *Name:</label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          name="name-field"
+          id="name"
+          class="text-input-class"
+          required
+        />
+
+        <br />
+
+        <label for="email-label"> *Email:</label>
+        <input
+          type="email"
+          placeholder="Enter your Email"
+          name="email-address"
+          id="email"
+          class="text-input-class"
+          required
+        />
+        <br />
+
+        <label for="number-label"> *Age:</label>
+        <input
+          type="number"
+          placeholder="Age"
+          name="age-field"
+          id="number"
+          class="text-input-class"
+          required
+        />
+        <br />
+
+        <label for="select-dropdown" id="select-label" class="align-label">
+          Which option best describes your current role?
+        </label>
+        <select name="select" id="select-dropdown" class="text-input-class">
+          <optgroup label="Select an option">
+            <option value="student">Student</option>
+            <option value="fulltime job">Full Time Job</option>
+            <option value="fulltime learner">Full Time Learner</option>
+            <option value="prefernottosay">Prefer not to say</option>
+            <option value="other">Other</option>
+          </optgroup>
+        </select>
+        <br />
+
+        <label for="radio-label" class="radio" id="radio-label">
+          *How likely is that you would recommend freeCodeCamp to a friend?
+        </label>
+        <span>
+          <input
+            type="radio"
+            name="radio-option"
+            id="#"
+            value="Definitely"
+          />Definitely
+          <br />
+
+          <input
+            type="radio"
+            name="radio-option"
+            id="maybe"
+            class="align-div"
+            value="Maybe"
+          />
+          Maybe
+          <br />
+
+          <input
+            type="radio"
+            name="radio-option"
+            id="not-sure"
+            value="Not sure"
+          />
+          Not sure
+        </span>
+        <br />
+
+        <label for="checkbox-label" class="align-label" id="radio-label">
+          Things that should be improved in the future (Check all that
+          apply):</label
+        >
+        <span id="checkbox-span">
+          <input
+            type="checkbox"
+            name="front-end"
+            id="#"
+            value="Front-end-Projects"
+          />Front-end-Projects
+          <br />
+
+          <input
+            type="checkbox"
+            name="back-end"
+            id="#"
+            value="Back-end-Projects"
+          />Back-end-Projects
+          <br />
+
+          <input
+            type="checkbox"
+            name="data-visualization"
+            id="#"
+            value="Data Visualization"
+          />Data Visualization
+          <br />
+
+          <input
+            type="checkbox"
+            name="challenges"
+            id="#"
+            value="Challenges"
+          />Challenges
+          <br />
+
+          <input
+            type="checkbox"
+            name="open-source"
+            id="#"
+            value="Open Source Community"
+          />Open Source Community <br />
+        </span>
+        <br />
+        <label for="text-label" class="align-label textarea-class"
+          >Any Comments or Suggestions?</label
+        >
+        <textarea name="textarea" id="text-label" cols="30" rows="10">
+Enter your comment here...
+          </textarea
+        >
+        <br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

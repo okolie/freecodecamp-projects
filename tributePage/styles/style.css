@@ -1,0 +1,67 @@
+/*  */
+#wrapper {
+  background-color: #f3f3f3;
+  margin: 30px 10px;
+  border-radius: 10px;
+}
+#header {
+  text-align: center;
+  font-size: 20px;
+  padding: 40px;
+  font-family: "Telefon Black", sans-serif;
+}
+h3 {
+  padding-top: 20px;
+}
+header > small {
+  font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+body {
+  background-color: #ffffff;
+  font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+
+figure {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 30px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+figcaption {
+  padding: 20px;
+}
+article {
+  max-width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+ul > li {
+  padding: 5px;
+  line-height: 1.6;
+  /* color: #f3f3f3; */
+  opacity: 0.8;
+}
+ul > li > span {
+  font-weight: bold;
+  opacity: 1;
+}
+#quote {
+  padding: 20px 0px;
+  line-height: 1.6;
+  opacity: 0.8;
+  font-style: italic;
+}
+#under > p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}

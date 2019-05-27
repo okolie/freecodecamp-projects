@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #4abdac;
+  font-family: Lato, "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+main {
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  width: 80vw;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+header > h1,
+button {
+  font-family: "Telefon Black", sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+  overflow: wrap;
+  padding-right: 10px;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+.text-input-class {
+  display: inline-block;
+  padding: 8px;
+  width: 40%;
+}
+
+#select-dropdown {
+  vertical-align: top;
+  margin-top: 25px;
+  padding: 5px 5px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+}
+
+span {
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: bottom;
+}
+#radio-label,
+.textarea-class {
+  vertical-align: top;
+}
+
+#checkbox-span {
+  vertical-align: bottom;
+
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+textarea {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+}
+
+button {
+  padding: 7px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #4abdac;
+}
